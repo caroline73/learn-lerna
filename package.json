@@ -31,7 +31,6 @@
     ]
   },
   "scripts": {
-    "precommit": "lint-staged",
     "release": "lerna publish",
     "build": "lerna exec --stream yarn build",
     "test": "jest",
