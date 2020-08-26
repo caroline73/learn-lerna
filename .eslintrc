@@ -1,0 +1,25 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "tsconfigRootDir": "./",
+    "project": ["./packages/**/tsconfig.json"]
+  },
+  "env": {
+    "node": true
+  },
+  "plugins": ["@typescript-eslint", "jest", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "standard-with-typescript",
+    "prettier/@typescript-eslint",
+    "plugin:jest/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/triple-slash-reference": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off"
+  }
+}
