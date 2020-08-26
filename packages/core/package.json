@@ -11,5 +11,5 @@
     "test": "jest",
     "build": "rm rf lib && tsc"
   },
-  "gitHead": "39fd00d3fb179d4aa4bb3938bf7addaf9034c4bc"
+  "gitHead": "23cca7ec7164a1b548c784199387d6102b16226f"
 }
