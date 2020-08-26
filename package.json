@@ -37,5 +37,9 @@
     "test": "jest",
     "lint": "eslint --ext js,jsx,ts,tsx packages --fix",
     "gen": "plop"
+  },
+  "hooks": {
+    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+    "pre-commit": "lerna exec --concurrency 1 --stream lint-staged --since HEAD"
   }
 }
