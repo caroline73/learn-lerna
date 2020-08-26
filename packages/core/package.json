@@ -1,0 +1,16 @@
+{
+  "name": "@scope/core",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest",
+    "build": "rm rf lib && tsc"
+  },
+  "dependencies": {}
+}

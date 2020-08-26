@@ -1,0 +1,7 @@
+{
+  "extends": "../../tsconfig.json", // 继承根目录下的 tsconfig.json 配置
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib"
+  }
+}
