@@ -7,12 +7,12 @@
     "access": "public"
   },
   "license": "MIT",
-  "devDependencies": {},
   "scripts": {
     "test": "jest",
     "build": "rm rf lib && tsc"
   },
   "dependencies": {
     "@scope/core": "1.0.0"
-  }
+  },
+  "gitHead": "39fd00d3fb179d4aa4bb3938bf7addaf9034c4bc"
 }
